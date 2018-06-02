@@ -24,18 +24,11 @@ while (i < facts.length){
 return moreFacts;
 }
 
-function iLoveTheBeatles(x){
-var love = [];
+function iLoveTheBeatles(num){
+  var array = [];
   do {
-    if (x=7){
-      love.push(`I love the Beatles!`);
-      x++;
-    } else if (x=17) {
-      love.push(`I love the Beatles!`);
-    } else {
-      x=15;
-    }
-    }
-    while (x<15);
-    return love;
-  }
+    array.push(`I love the Beatles!`)
+    num++;
+  } while(num<15);
+  return array;
+}
